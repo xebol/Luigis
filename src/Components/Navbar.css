@@ -1,0 +1,25 @@
+.nav {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, .75);
+  height: 100px;
+  width: 100%;
+  padding-right: 25px;
+}
+
+.nav-links-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.link {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+
+.links-container {
+  margin-left: auto;
+}
