@@ -1,10 +1,12 @@
-import menuItems from "../data/menu-items.json"
+import menuItems from "../data/menu-items.json";
 
 const Menu = () => {
   return (
     <>
-    <h1>Menu</h1>
-      {menuItems.map(item => (JSON.stringify(item)))}
+      <h1>Menu</h1>
+      {menuItems.map(item => (
+        JSON.stringify(item)
+      ))}
     </>
   );
 };
