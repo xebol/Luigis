@@ -1,5 +1,3 @@
-import menuItems from "../data/menu-items.json";
-
 const Menu = () => {
   return (
     <>
