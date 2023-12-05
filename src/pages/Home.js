@@ -1,10 +1,16 @@
+import './Home.scss'
+
 const Home = () => {
   return (
-    <h1>Home</h1>
+    <div className="container">
+      <div className="main">
+        <h1>Welcome to Luigis!</h1>
+      </div>
+    </div>
   );
 };
 
 
 
 
-export default Home;
+export default Home; 
