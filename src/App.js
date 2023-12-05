@@ -1,5 +1,4 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-
 import { useEffect } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -7,6 +6,7 @@ import Reviews from "./pages/Reviews";
 import Menu from "./pages/Menu";
 import Navbar from "./Components/Navbar";
 import "./App.css";
+import Footer from "./Components/Footer";
 
 function App() {
   //get info on the current location of the page based on the navlink
@@ -32,7 +32,7 @@ function App() {
           <Route path="/reviews" element={<Reviews />} ></Route>
         </Routes>
       </div>
-
+      <Footer/>
     </>
   );
 }
