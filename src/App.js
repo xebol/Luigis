@@ -17,7 +17,7 @@ function App() {
     const routeName = location.pathname.replace("/", "");
 
      //dynamically change title based on route name
-    document.title = routeName || "Luigis";
+    document.title = routeName || "Luigi's";
   }, [location.pathname]);
 
 
