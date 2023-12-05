@@ -1,7 +1,8 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink} from "react-router-dom";
 import "./Navbar.scss";
-
 const Navbar = () => {
+
+
   return (
     <div className="nav">
       <div className="nav-links-container">
@@ -12,9 +13,9 @@ const Navbar = () => {
 
       <div className="links-container">
         <Link to="/" as={NavLink} className="link">Home</Link>
-        <Link to="/menu" as={NavLink} className="link">Menu</Link>
-        <Link to="/about" as={NavLink} className="link">About</Link>
-        <Link to="/reviews" as={NavLink} className="link">Reviews</Link>
+        <Link to="/Menu" as={NavLink} className="link">Menu</Link>
+        <Link to="/About" as={NavLink} className="link">About</Link>
+        <Link to="/Reviews" as={NavLink} className="link">Reviews</Link>
       </div>
 
     </div>
