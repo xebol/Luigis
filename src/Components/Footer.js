@@ -20,12 +20,12 @@ const Footer = () => {
           <p>24/7</p>
         </div>
         <div className="social">
-          <h3>Socials</h3>
-          <div className="icon">
-            <FontAwesomeIcon icon={faSquareInstagram} className="fa-icon fa-2x" />
-            <FontAwesomeIcon icon={faTwitter} className="fa-icon fa-2x" />
-            <FontAwesomeIcon icon={faSquareFacebook} className="fa-icon fa-2x" />
-          </div>
+        <h3>Socials</h3>
+          <div className="icons">
+          <FontAwesomeIcon icon={faSquareInstagram} className="fa-icon fa-2x" />
+          <FontAwesomeIcon icon={faTwitter} className="fa-icon fa-2x" />
+          <FontAwesomeIcon icon={faSquareFacebook} className="fa-icon fa-2x" />
+        </div>
         </div>
       </div>
     </div>
