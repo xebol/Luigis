@@ -1,0 +1,32 @@
+
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+
+.review-balloon {
+  background-color: transparent;
+  resize: none;
+  width: 60vw;
+  min-height: 150px;
+  margin: 10px;
+  border: none;
+  outline: none;
+  font-size: 1.5em;
+  color: #654e30;
+}
+
+.toad {
+  height: 20vh;
+  margin-top: 200px;
+}
+.review-button {
+  background-color: rgb(135, 13, 13);
+  color: rgba(242, 216, 179, 0.99);
+}
+.review-button:hover {
+  background-color: rgb(201, 37, 37);
+}
