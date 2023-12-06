@@ -5,8 +5,9 @@ import About from "./pages/About";
 import Reviews from "./pages/Reviews";
 import Menu from "./pages/Menu";
 import Navbar from "./Components/Navbar";
-import "./App.css";
 import Footer from "./Components/Footer";
+import "./App.css";
+
 
 function App() {
   //get info on the current location of the page based on the navlink
